@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@600;700;800&family=Manrope:wght@400;500;600;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root { color-scheme: light; --brand: #db2777; --brand-dark: #9d1c55; }
+html, body {
+  background-color: #f8fafc;
+  color: #0f172a;
+  font-family: 'Manrope', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+h1, h2, h3, h4 { font-family: 'Syne', 'Manrope', sans-serif; letter-spacing: -0.02em; }
+* { border-color: #e2e8f0; }
+.bg-brand{background-color:var(--brand)!important}.text-brand{color:var(--brand)!important}.border-brand{border-color:var(--brand)!important}.from-brand-dark{--tw-gradient-from:var(--brand-dark)}.to-brand{--tw-gradient-to:var(--brand)}
