@@ -1,2 +1,3 @@
-# clinicacardi1142-web
-ScrumDev AI frontend (clinicacardi1142-web)
+# CLINICACARDI1142 - Frontend
+
+Next.js desplegado en Vercel.
